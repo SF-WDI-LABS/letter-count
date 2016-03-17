@@ -28,4 +28,9 @@ For example, given the word "apple", `letterCount("apple")` should return:
 
 <!-- INSTRUCTORS NOTES
 
-{ prerequisites: [ 'forEach', 'object in operator']}
+{
+  prerequisites: [ 'forEach', 'in operator', 'hasOwnProperty'],
+  topics: ['JS', 'iterators']
+}
+
+-->
