@@ -16,5 +16,6 @@ function letterCount(word) {
         function(character) { return character.toLowerCase(); }) // Convert each character to a lowerCase version.
     .reduce(function(count, character) {
       count[character] = (count[character] || 0) + 1; // Sum the number of occurrences using a "Counter" object.
-      return count;}, {});
+      return count;
+    }, {});
 }
